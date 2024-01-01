@@ -1,0 +1,100 @@
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+bottom: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.head-div-login{
+    background-color: rgba(76, 33, 99, 0.704);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.short-box-content{
+width: 400px;
+height: 380px;
+border: none;
+border-radius: 10px;
+background-color: aliceblue;
+}
+.login-form-head h2{
+background-color: rgb(38, 177, 175);
+color: white;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-top-right-radius: 10px;
+border-top-left-radius: 10px;
+}
+.input-div-2{
+    margin-left: 22px;
+    height: 33px;
+    background-color: rgb(68, 213, 210);
+  width: 28px;
+padding-left: 7px;
+padding-top: 7px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    
+    
+    
+    
+}
+.flex input{
+    width: 322px;
+    border: 0.5px solid;
+    border-left: none;
+    outline: none;
+    padding-left: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.flex{
+    display: flex;
+    
+}
+.mt32{
+
+    margin-top: 32px;
+}
+.mt20{
+    margin-top: 20px;
+
+}
+.user-and-lock-icon{
+    color: white;
+}
+.short-box-content p:nth-child(4){
+    color: rgb(92, 198, 212);
+    margin-top: 12px;
+    margin-left: 22px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 130px;
+}
+.login-btn{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(102, 228, 242);
+}
+.short-box-content p:nth-child(6){
+    /* width: 205px; */
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+.short-box-content p:nth-child(6) > p{
+    color: rgb(92, 198, 212);
+cursor: pointer;
+
+
+}
